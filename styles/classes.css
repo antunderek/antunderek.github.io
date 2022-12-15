@@ -1,0 +1,99 @@
+/* Classes */
+.bg-image {
+    background-image: url("../images/blurred.jpeg");
+    background-size: cover;
+    background-color: #1D1E20;
+    background-position: center;
+}
+
+.profile {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.social-links {
+    display: inline-flex;
+    gap: 2.5vw;
+    margin: 2vw 0 3vw 0;
+}
+
+.icon {
+    height: 2.5vw;
+    fill: aliceblue;
+}
+
+.icon:hover {
+    fill: var(--highlight-color);
+    transition: 500ms;
+}
+
+.anchor-links {
+    display: inline-flex;
+    gap: 5vw;
+}
+
+.card {
+    background-color: #1D1E20;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 5vw;
+    padding: 5vw;
+    opacity: 0.9;
+
+    /* add edge blur */
+    box-shadow: 0 0 2vw 1vw #1D1E20;
+}
+
+.about {
+    margin-bottom: 25vw;
+}
+
+.project {
+    padding-bottom: 2.5vw;
+}
+
+.project-border {
+    border-bottom-style: dotted;
+}
+
+.project-title-year {
+    display: flex; 
+    align-items: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.project-year-margin {
+    margin-left: auto;
+}
+
+.skills {
+    margin-top: 0;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.top-link {
+    display: flex;
+    justify-self: center;
+    visibility:hidden;
+    position:fixed;
+    bottom: 2vw;
+    right: 2vw;
+    z-index: 99;
+    width: 1vw;
+    height: 1vw;
+    padding: 1vw;
+    background: #1D1E20;
+    transition:visibility .5s,opacity .8s linear
+}
+
+.footer-link {
+    color: rgb(163, 163, 163);
+}

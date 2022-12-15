@@ -1,0 +1,20 @@
+/* Scrollbar styling for chrome based browsers*/
+/* width */
+::-webkit-scrollbar {
+  width: 1vh;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1D1E20;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--highlight-color);
+}
